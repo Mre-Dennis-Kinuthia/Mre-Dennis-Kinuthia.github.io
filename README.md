@@ -1,2 +1,2 @@
-# DennisKinuthia.github.io
+# Mre-Dennis-Kinuthia.github.io
 Portfolio
