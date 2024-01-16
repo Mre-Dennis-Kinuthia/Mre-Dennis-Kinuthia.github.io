@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Your Portfolio</title>
+</head>
+
+<body>
+    <nav>
+        <div class="topnav">
+            <a onclick="scrollToSection('home')">Home</a>
+            <a onclick="scrollToSection('aboutme')">About Me</a>
+            <a onclick="scrollToSection('showcase')">Showcase</a>
+            <a onclick="scrollToSection('somefun')">Some Fun</a>
+        </div>
+    </nav>
+
+    <div class="home" id="home">
+        <div class="introduction">
+            <h1>Hi,</h1>
+            <h2>I am Dennis Ndungu</h2>
+                <p>
+                    Hi there! I'm Dennis Ndungu, a passionate full-stack developer who finds joy in creating and building things in
+                    the digital realm. With a love for problem-solving and a knack for turning ideas into reality, I embark on every
+                    project with enthusiasm and a commitment to delivering quality solutions.
+                </p>
+        </div>
+    </div>
+
+    <div class="aboutme" id="aboutme">
+        <h1>About Me</h1>
+    </div>
+
+    <div class="showcase" id="showcase">
+        <h1>Showcase</h1>
+    </div>
+
+    <div class="somefun" id="somefun">
+        <h1>Some Fun</h1>
+    </div>
+
+        <script>
+            function scrollToSection(sectionId) {
+                const section = document.getElementById(sectionId);
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        </script>
+</body>
+
+</html>
